@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Financie</string>
+    <string name="tab_text_1">Overall</string>
+    <string name="tab_text_2">My goals</string>
+    <string name="overall_string">Overall</string>
+    <string name="add_dialog">Add</string>
+    <string name="cancel_dialog">Cancel</string>
+    <string name="add_date">Click here to add date</string>
+    <string name="name">Name</string>
+    <string name="end_date">End Date</string>
+    <string name="description">Description</string>
+    <string name="goal">Goal</string>
+    <string name="saved">Saved</string>
+    <string name="saving_frequency">Saving frequency</string>
+    <string name="add_new_goal">Add new saving goal</string>
+    <string name="settings">settings</string>
+    <string name="edit">edit</string>
+    <string name="edit_dialog">Edit goal</string>
+    <string name="contributions">Contributions</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_contribution">Add contribution</string>
+    <string name="date">Date</string>
+    <string name="edit_contribution">Edit contribution</string>
+
+</resources>
