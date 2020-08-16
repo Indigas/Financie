@@ -4,6 +4,7 @@ import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+import java.util.Comparator;
 import java.util.Date;
 
 @Entity
@@ -36,4 +37,5 @@ public class ContributionsToItem {
     public int getItemIdOwnder() {
         return this.ItemIdOwner;
     }
+
 }
