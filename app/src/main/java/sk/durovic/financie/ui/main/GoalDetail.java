@@ -106,7 +106,7 @@ public class GoalDetail extends Fragment {
 
                 listOfContributions.clear();
                 listOfContributions.addAll(contributionsToItems);
-                Collections.sort(listOfContributions, (o1,o2) -> -o1.addDate.compareTo(o2.addDate));
+                //Collections.sort(listOfContributions, (o1,o2) -> -o1.addDate.compareTo(o2.addDate));
 
 
                 if(onDelete==-1)

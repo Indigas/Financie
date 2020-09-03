@@ -16,7 +16,7 @@ public interface DaoDataContributions {
     @Query("SELECT * FROM contributionstoitem WHERE ItemIdOwner LIKE :owner")
     List<ContributionsToItem> getAllContributions(int owner);
 
-    @Query("SELECT * FROM contributionstoitem WHERE ItemIdOwner LIKE :owner")
+    @Query("SELECT * FROM contributionstoitem WHERE ItemIdOwner LIKE :owner ORDER BY addDate DESC")
     LiveData<List<ContributionsToItem>> getAllContributionsLive(int owner);
 
     @Insert
